@@ -1,0 +1,100 @@
+body {
+    font-family: Times, Times New Roman, serif;
+    background: linear-gradient(0deg, rgba(141,250,255,1) 0%, rgba(0,153,255,1) 100%);
+    margin: 0.8rem;
+   font-size: calc(8px + 0.790625vw);
+}
+                    
+
+h1{
+  color: #FEFEF6;
+  font-size: calc(50px + 1.790625vw);
+  text-align: center;
+  margin: 5;
+}
+h2{
+  color: #FEFEF6 ;
+  text-shadow: 1px 0 10px;  
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black;
+  font-size: calc(25px + 0.790625vw);
+  text-align: center;
+  margin: 5;
+}
+h3{
+  color: #7AC0FF;
+  text-shadow: 1px 0 10px;  
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  margin: 5;
+  font-size: calc(25px + 0.790625vw);
+  text-align: center;
+
+}
+
+.main{
+    margin-top:50px;
+}
+
+ /* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgba(255,255,255,0);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width:100%;
+ }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #FEFEF6;
+  text-align: center;
+  padding: calc(5px + 0.790625vw) calc(1px + 0.790625vw);
+  text-decoration: none;
+  font-size: calc(15px + 0.790625vw);
+  margin-right: 0.8rem;
+ }
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #7AC0FF;
+  color
+}
+ .topnav a.active {
+  background-color: #7AC0FF;
+  color: black;
+ }
+ .logo {
+    display: inline-block;
+    vertical-align: top;
+    height: auto;
+    color: #FEFEF6;
+    font-size: calc(17px + 0.790625vw);
+    text-align: center;
+    margin: 5;
+}
+.container {
+    display: flex;
+    margin: 0 10px;
+    flex: 1;
+    background-color: #FEFEF6;
+    border-radius: 10px;
+    text-align: left;
+}
+
+
+.containerfile {
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+    flex: 1;
+    background-color: #FEFEF6;
+    border-radius: 10px;
+    padding-top: 20px;    /* Espace en haut du texte */
+    padding-right: 20px;  /* Espace à droite du texte */
+    padding-bottom: 20px; /* Espace en bas du texte */
+    padding-left: 20px;   /* Espace à gauche du texte */
+    line-height: 2; /* 2 fois la hauteur de la police */
+
+}  
